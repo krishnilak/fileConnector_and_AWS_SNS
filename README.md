@@ -33,12 +33,16 @@ https://docs.wso2.com/display/ESB500/Working+with+Connectors+via+WSO2+ESB+Toolin
 
 - Now import above git repository to your Integration studio workspace
 
-- Create a Composite application by
-New > Composite Application Project > Next >
-tick the checkbox near your ESB solution project and finish
+<optional step>
+- Create AWS SNS Account, create a topic and a subscriber to that topic.
+Save SNS Account Access id and Secret key
+
+- Update SNS credentials in ESB flow
+In your ESB soltion project open the sns publish sequence in the source view
+within SNS init operation update access id and secret key
 
 - Build the project by executing
-Project > Build project
+ESB solution Project > Build project
 
 - Right click on your Composite application project and click on
 Export Composite Application Project
