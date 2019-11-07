@@ -1,4 +1,4 @@
-# EI_FileConnectorDemo
+# EI FileConnector and Amazon simple notification Demo
 
 
 This setup demonstrates
